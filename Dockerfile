@@ -20,7 +20,7 @@ WORKDIR /app
 
 COPY requirements.txt /app/requirements.txt
 RUN pip3 install -r requirements.txt
-RUN dvc repro
+# RUN dvc repro
 
 COPY . /app
 
